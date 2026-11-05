@@ -1,0 +1,6 @@
+langchain-core
+langchain-openai
+langsmith
+python-dotenv
+tiktoken
+pydantic

@@ -1,0 +1,27 @@
+[
+  {
+    "report": "Oil is leaking beneath the engine.",
+    "category": "Fluid Leakage",
+    "review_required": false
+  },
+  {
+    "report": "Paint is peeling from the bonnet.",
+    "category": "Paint Damage",
+    "review_required": false
+  },
+  {
+    "report": "The brake pedal feels soft.",
+    "category": "Braking System",
+    "review_required": false
+  },
+  {
+    "report": "The electrical warning light is on.",
+    "category": "Electrical System",
+    "review_required": false
+  },
+  {
+    "report": "Something seems wrong under the hood.",
+    "category": "Human Review",
+    "review_required": true
+  }
+]
