@@ -1,0 +1,28 @@
+description: Compare baseline and improved vehicle defect classification prompts.
+prompts:
+  - file://../prompts/promptfoo_baseline.txt
+  - file://../prompts/promptfoo_improved.txt
+
+providers:
+  - id: openai:chat:gpt-4o-mini
+    config:
+      temperature: 0
+
+tests:
+  - vars:
+      inspection_text: "Fresh engine oil is visible beneath the front of the vehicle."
+    assert:
+      - type: contains
+        value: "Fluid Leakage"
+
+  - vars:
+      inspection_text: "Paint is peeling from the bonnet."
+    assert:
+      - type: contains
+        value: "Paint Damage"
+
+  - vars:
+      inspection_text: "The report only says the vehicle makes a strange noise."
+    assert:
+      - type: contains
+        value: "Human Review"

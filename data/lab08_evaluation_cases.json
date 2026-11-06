@@ -1,0 +1,22 @@
+[
+  {
+    "inspection_text": "Fresh engine oil is visible beneath the front of the vehicle.",
+    "category": "Fluid Leakage",
+    "review_required": false
+  },
+  {
+    "inspection_text": "The brake pedal travels unusually far and feels soft.",
+    "category": "Braking System",
+    "review_required": false
+  },
+  {
+    "inspection_text": "The report only says: vehicle making a strange noise.",
+    "category": "Human Review",
+    "review_required": true
+  },
+  {
+    "inspection_text": "Paint is peeling from the bonnet.",
+    "category": "Paint Damage",
+    "review_required": false
+  }
+]

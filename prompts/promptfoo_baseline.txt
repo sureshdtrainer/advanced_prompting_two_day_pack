@@ -1,0 +1,6 @@
+Classify the vehicle inspection observation into one category:
+Paint Damage, Fluid Leakage, Braking System, Electrical System, or Human Review.
+
+Observation: {{inspection_text}}
+
+Return the category and a short explanation.
